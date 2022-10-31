@@ -9,8 +9,10 @@
 1. There was a series of 7 different tasks to complete in a Hadoop server that required the Reducer and Mapper to be changed, compiled, made into a JAR, and executed on Hadoop. An example of one of these tasks will be shown below.
 
 **Topics/Skills covered:**
+- Distributed computing
+- Cloud computing
 - MapReduce
-- Hadoop cluster
+- Hadoop
 - Spark
 - JARs
 
