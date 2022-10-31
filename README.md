@@ -10,13 +10,15 @@
 
 **Topics/Skills covered:**
 - MapReduce
-- Hadoop
+- Hadoop cluster
 - Spark
 - JARs
 
 **Demonstration of completed tasks:**
 
-Hadoop tasks:
+**Hadoop tasks:**
+
+All 7 tasks in Hadoop followed this format. It involved making some changes to the Java file to correctly compute the desired metric, then the file was compiled and turned into a JAR and run on the cluster. This is just one example:
 
 >Setup
 >
@@ -84,3 +86,24 @@ Hadoop tasks:
 >
 >Merge output to local files:
 >hadoop dfs -getmerge /user/student134/output/Task2 Task2Output
+
+
+**Spark Demonstration:**
+
+Similarly, the Spark section of this project involved a large text file that would be analyzed on a Spark cluster. 
+
+The text file is a .txt file of The Tempest:
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/114946651/199124083-b120bdc3-c8ee-4cc9-8353-173004bad92e.png">
+
+Spark library added:
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/114946651/199124142-0cb2fed0-e783-4b2b-9c80-d038653948e8.png">
+
+Screenshot of the Tempest Analytics file performing analytics on the Spark cluster:
+![image](https://user-images.githubusercontent.com/114946651/199124234-39cab9d2-3857-458a-b1bf-56cc6b199e7f.png)
+
+
+
+
+
