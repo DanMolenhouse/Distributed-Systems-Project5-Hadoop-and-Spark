@@ -19,10 +19,13 @@
 Hadoop tasks:
 
 >Setup
+>
 >mkdir Task2
+>
 >cd Task0
 >
 >copy WordCount.java:
+>
 >cp -R /home/student134/Project5/Part_1/Task0/WordCount.java /home/student134/Project5/Part_1/Task2
 >
 >Changes to java code:
@@ -58,18 +61,25 @@ Hadoop tasks:
         }
 
 >More setup
+>
 >mkdir wordCount_classes
 >
 >Compile Java
->javac -classpath /usr/local/hadoop/hadoop-core-1.2.1.jar:./wordCount_classes -d wordCount_classes >WordCount.java
+>
+>javac -classpath /usr/local/hadoop/hadoop-core-1.2.1.jar:./wordCount_classes -d wordCount_classes 
+>
+>WordCount.java
 >
 >Create Jar
+>
 >jar -cvf wordcount.jar -C wordCount_classes/ .
 >
 >Execute JAR
+>
 >hadoop jar /home/student134/Project5/Part_1/Task2/wordcount.jar org.myorg.WordCount  /user/student134/input/words.txt /user/student134/output/Task2
 >
 >View Output:
+>
 >hadoop dfs -cat /user/student134/output/Task2/part-r-00000
 >
 >Merge output to local files:
