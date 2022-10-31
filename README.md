@@ -27,8 +27,6 @@ Hadoop tasks:
 >
 >Changes to java code:
 
-//Mapper will read all of the words and	do something
-        //for this task, it will find words that contain "fact"
         public static class WordCountMap extends Mapper<LongWritable, Text, Text, IntWritable>
         {
                 private final static IntWritable one = new IntWritable(1);
