@@ -93,7 +93,7 @@ All 7 tasks in Hadoop followed this format. It involved making some changes to t
 
 **Spark Demonstration:**
 
-Similarly, the Spark section of this project involved a large text file that would be analyzed on a Spark cluster. 
+Similarly, the Spark section of this project involved a large text file that would be analyzed in numerous different ways on a Spark cluster. The images below demonstrate that the Spark cluster was running correctly and performing the requested analysis.
 
 The text file is a .txt file of The Tempest:
 
