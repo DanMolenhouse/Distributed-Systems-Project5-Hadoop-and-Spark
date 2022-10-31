@@ -7,6 +7,7 @@
 
 **Tasks:**
 1. There was a series of 7 different tasks to complete in a Hadoop server that required the Reducer and Mapper to be changed, compiled, made into a JAR, and executed on Hadoop. An example of one of these tasks will be shown below.
+2. Use a Apache Spark cluster to perform a series of analytics on a large text file.
 
 **Topics/Skills covered:**
 - Distributed computing
